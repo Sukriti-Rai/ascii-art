@@ -476,10 +476,10 @@ public:
     
         char **u()
         {
-            char **character = getCharGrid(6,4);
+            char **character = getCharGrid(7,4);
 
             //Enter the character grid in ROWS X COLS
-             character[1][0] = character[1][3] = character[2][0] = character[2][3] = character[3][0] = character[3][3] = character[4][1] = character[4][2] = character[4][3] = '#';
+             character[3][0] = character[3][3] = character[4][0] = character[4][3] = character[5][0] = character[5][3] = character[6][1] = character[6][2] = character[6][3] = '#';
 
             return character;
         }
